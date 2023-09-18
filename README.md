@@ -1,16 +1,23 @@
-# task_two
+# ICTHUB Flutter Task Two
 
-A new Flutter project.
+A flutter project created as a task for the ICTHUB Flutter Course
 
-## Getting Started
+## Task Details
 
-This project is a starting point for a Flutter application.
+### *[ Task 3 ]*
 
-A few resources to get you started if this is your first Flutter project:
+Part one of task three is to create a gridview of products fetched from a database using API and http dependency and display them to the user.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Part two of the task is to create a display screen that displays all the information about a specific product when tapped on it.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The color scheme of the app has a black theme shown in the Appbar, Products list and the Product Display screen.
+
+**Task three Screenshots**
+![Part one of Task 3](./screenshots/screenshot_1.png)
+
+![Part two of Task 3](./screenshots/screenshot_2.png)
+![Part two of Task 3](./screenshots/screenshot_3.png)
+
+---
+
+***Task Created by: Adham Elshabasy***

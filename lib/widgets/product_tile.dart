@@ -1,5 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:task_two/data/models/product_model.dart';
+import 'package:task_two/screens/display_screen.dart';
+
+//-------------------------------------------------------------------------//
+
+// Function to navigate to a screen by class name
+void navigateToScreen(BuildContext context, Widget screen) {
+  Navigator.of(context).push(
+    MaterialPageRoute(builder: (context) => screen),
+  );
+}
 
 //-------------------------------------------------------------------------//
 
@@ -12,7 +22,7 @@ class ProductTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        // Handle the tap action
+        navigateToScreen(context, DisplayScreen(product: product));
       },
       child: Container(
         margin: const EdgeInsets.all(8.0),
@@ -45,11 +55,10 @@ class ProductTile extends StatelessWidget {
               left: 0, // Adjust the position as needed
               right: 0, // Adjust the position as needed
               child: Container(
-                // color: Colors.black.withOpacity(0.7),
                 // Semi-transparent background
                 padding: const EdgeInsets.all(8.0),
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(12.0),
+                  borderRadius: BorderRadius.circular(8.0),
                   color: Colors.black.withOpacity(0.7),
                 ),
                 child: Column(
@@ -57,6 +66,7 @@ class ProductTile extends StatelessWidget {
                   children: [
                     Text(
                       product.title,
+                      overflow: TextOverflow.ellipsis,
                       style: const TextStyle(
                         fontSize: 16.0,
                         fontWeight: FontWeight.bold,
@@ -68,6 +78,7 @@ class ProductTile extends StatelessWidget {
                       style: const TextStyle(
                         fontSize: 14.0,
                         color: Colors.green,
+                        // fontWeight: FontWeight.bold
                       ),
                     ),
                   ],

@@ -103,3 +103,9 @@ flutter:
     - family: Righteous
       fonts:
         - asset: fonts/Righteous.ttf
+    - family: Oswald
+      fonts:
+        - asset: fonts/Oswald.ttf
+    - family: SpaceGrotesk
+      fonts:
+        - asset: fonts/SpaceGrotesk.ttf
