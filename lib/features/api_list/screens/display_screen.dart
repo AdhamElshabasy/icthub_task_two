@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:task_two/data/models/product_model.dart';
-import 'package:task_two/widgets/app_bars.dart';
-import 'package:task_two/widgets/product_display.dart';
+import 'package:task_two/features/api_list/data/models/product_model.dart';
+import 'package:task_two/features/api_list/widgets/app_bars.dart';
+import 'package:task_two/features/api_list/widgets/product_display.dart';
 
 //-------------------------------------------------------------------------//
 

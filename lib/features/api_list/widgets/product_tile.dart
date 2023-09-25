@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task_two/data/models/product_model.dart';
-import 'package:task_two/screens/display_screen.dart';
+import 'package:task_two/features/api_list/data/models/product_model.dart';
+import 'package:task_two/features/api_list/screens/display_screen.dart';
 
 //-------------------------------------------------------------------------//
 
@@ -32,8 +32,8 @@ class ProductTile extends StatelessWidget {
           boxShadow: [
             BoxShadow(
               color: Colors.grey.withOpacity(0.5),
-              spreadRadius: 2,
-              blurRadius: 5,
+              spreadRadius: 5,
+              blurRadius: 10,
               offset: const Offset(0, 3),
             ),
           ],

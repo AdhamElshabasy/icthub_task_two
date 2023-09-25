@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:http/http.dart' as http;
-import 'package:task_two/data/constants.dart';
-import 'package:task_two/data/models/product_model.dart';
+import 'package:task_two/features/api_list/data/constants.dart';
+import 'package:task_two/features/api_list/data/models/product_model.dart';
 
 //-------------------------------------------------------------------------//
 
